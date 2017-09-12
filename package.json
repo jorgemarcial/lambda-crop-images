@@ -1,0 +1,18 @@
+{
+  "name": "exampleCropLambdaByPayload",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lambda.js",
+  "scripts": {
+    "start": "claudia create --name exampleCropLambdaByPayload --region eu-west-1 --handler lambda.handler",
+    "test": "claudia test-lambda",
+    "deploy": "claudia update"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.114.0",
+    "claudia": "^2.14.2",
+    "sharp": "^0.18.2"
+  }
+}
